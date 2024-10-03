@@ -4,7 +4,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { twMerge } from "tailwind-merge";
 import { Footer } from "@/components/Footer";
-import FloatingBottomNav from "@/components/FloatingBottomNav";
+import { FloatingDock } from "@/components/FloatingDock";
 import { Profile } from "@/components/Profile";
 
 const inter = Inter({
@@ -42,7 +42,7 @@ export default function RootLayout({
             </div>
           </div>
         </div>
-                <FloatingBottomNav />
+                <FloatingDock />
       </body>
     </html>
   );
