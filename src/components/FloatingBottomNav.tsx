@@ -2,7 +2,7 @@
 
 import { Dispatch, SetStateAction, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { IconType } from "react-icons";
+
 import {
   IconBrandLinkedin,
   IconBrandTwitter,
@@ -32,7 +32,7 @@ const FloatingBottomNav = () => {
   );
 };
 
-const Link = ({ text, Icon }: { text: string; Icon: IconType }) => {
+const Link = ({ text, Icon }: { text: string; Icon: React.FC }) => {
   return (
     <a
       href="#"
