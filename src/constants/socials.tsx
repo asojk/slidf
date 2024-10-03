@@ -1,23 +1,11 @@
-import {
-  IconBrandLinkedin,
-  IconBrandTwitter,
-  IconBrandYoutube,
-} from "@tabler/icons-react";
+import { GoogleScholarLogo, ORCiDLogo, ResearchGateLogo } from "@/components/icons/SocialIcons";
+import { IconBrandLinkedin } from "@tabler/icons-react";
+
 
 export const socials = [
-  {
-    href: "https://twitter.com/mannupaaji",
-    label: "Twitter",
-    icon: IconBrandTwitter,
-  },
-  {
-    href: "https://linkedin.com/in/manuarora28",
-    label: "LinkedIn",
-    icon: IconBrandLinkedin,
-  },
-  {
-    href: "https://youtube.com/maninthere",
-    label: "YouTube",
-    icon: IconBrandYoutube,
-  },
+    { href: "https://www.linkedin.com/in/", label: "LinkedIn", icon: IconBrandLinkedin },
+    { href: "https://scholar.google.com/", label: "Google Scholar", icon: GoogleScholarLogo },
+  { href: "https://www.researchgate.net/", label: "Research Gate", icon: ResearchGateLogo },
+  { href: "https://orcid.org/", label: "ORCiD", icon: ORCiDLogo },
+
 ];
