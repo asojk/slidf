@@ -3,7 +3,7 @@ import { Container } from "@/components/Container";
 export default function Home() {
   return (
     <Container>
-      <div className="w-full bg-white dark:bg-neutral-950 font-sans md:px-10 md:pt-12 lg:pt-20">
+      <div className="w-full bg-white font-sans md:px-10 md:pt-12 lg:pt-20">
       <div className="max-w-7xl mx-auto pb-20 px-4 md:px-8 lg:px-10">
         <h1 className="text-lg md:text-4xl mb-4 text-black max-w-4xl font-bold">
         <span className="text-4xl">👋</span>{' '}Welcome!</h1>
