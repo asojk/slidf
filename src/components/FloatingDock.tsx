@@ -2,7 +2,7 @@ import React from "react";
 import { FloatingDock } from "@/components/ui/floating-dock";
 import { navlinks } from "@/constants/navlinks";
 import { socials } from "@/constants/socials";
-import { Profile } from "./Proifile";
+import { Profile } from "./Profile";
 
 export function FloatingDockDemo() {
   const links = [
