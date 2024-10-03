@@ -5,7 +5,7 @@ import { Inter } from "next/font/google";
 import { twMerge } from "tailwind-merge";
 import { Footer } from "@/components/Footer";
 import FloatingBottomNav from "@/components/FloatingBottomNav";
-import { Profile } from "@/components/Proifile";
+import { Profile } from "@/components/Profile";
 
 const inter = Inter({
   subsets: ["latin"],
