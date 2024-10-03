@@ -4,13 +4,10 @@ import { Dispatch, SetStateAction, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { IconType } from "react-icons";
 import {
-  FiShoppingCart,
-  FiSearch,
-  FiPhone,
-  FiMenu,
-  FiHome,
-  FiX,
-} from "react-icons/fi";
+  IconBrandLinkedin,
+  IconBrandTwitter,
+  IconBrandYoutube,
+} from "@tabler/icons-react";
 
 const FloatingBottomNav = () => {
   const [open, setOpen] = useState(false);
@@ -24,10 +21,10 @@ const FloatingBottomNav = () => {
       >
         <MenuButton setOpen={setOpen} open={open} />
         <div className="flex gap-6 px-6">
-          <Link text="Home" Icon={FiHome} />
-          <Link text="Shop" Icon={FiSearch} />
-          <Link text="Support" Icon={FiPhone} />
-          <Link text="Cart" Icon={FiShoppingCart} />
+          <Link text="Home" Icon={IconBrandLinkedin} />
+          <Link text="Shop" Icon={IconBrandLinkedin} />
+          <Link text="Support" Icon={IconBrandLinkedin} />
+          <Link text="Cart" Icon={IconBrandLinkedin} />
         </div>
         <Menu />
       </motion.nav>
@@ -88,7 +85,7 @@ const MenuButton = ({
               exit="exit"
               transition={{ duration: 0.125, ease: "linear" }}
             >
-              <FiMenu />
+              <IconBrandLinkedin />
             </motion.span>
           )}
         </AnimatePresence>
