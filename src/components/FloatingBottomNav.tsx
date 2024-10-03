@@ -73,7 +73,7 @@ const MenuButton = ({
               exit="exit"
               transition={{ duration: 0.125, ease: "linear" }}
             >
-              <FiX />
+              <IconBrandLinkedin />
             </motion.span>
           ) : (
             <motion.span
